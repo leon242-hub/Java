@@ -6,12 +6,14 @@ public class ForLoop {
 		int numbers2[] = new int[10];
 
 		for (int i = 0; i < numbers2.length; i++) {
-			numbers2[i] = i++;
+			numbers2[i] = i;
 		}
 
-		for (int i = 0; i < numbers.length; i++) {
+		for (int i = 0; i < numbers2.length; i++) {
 			System.out.println(numbers2[i]);
 		}
+
+		System.out.println("//end of loop");
 
 		// Short for loop
 		for (int number : numbers) {
